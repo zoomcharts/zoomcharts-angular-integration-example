@@ -128,8 +128,6 @@ ng generate class WindowRef
 
 ### _app/WindowRef.ts_ file
 
-Wrapping window
-
 ```javascript
 import { Injectable } from '@angular/core';
 function _window(): any {
