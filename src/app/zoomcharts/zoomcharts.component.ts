@@ -10,7 +10,7 @@ import { WindowRef } from './../WindowRef';
 })
 
 export class ZoomchartsComponent implements AfterViewInit {
-  // ref to zc instance
+  // for optimal operation: ref to zc instance
   private zc: any = zc;
 
   constructor(private winRef: WindowRef) {

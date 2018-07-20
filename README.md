@@ -14,14 +14,14 @@ npm install -g @angular/cli
 ## Create new project
 
 ```
-ng new my-zoomchartApp
+ng new my-zoomchartsApp
 ```
 
 ## Serve the application
 
 Go to project directory 
 ```
-cd my-zoomchartApp
+cd my-zoomchartsApp
 ```
 ## Create the ZoomCharts component
 
@@ -51,7 +51,7 @@ import { WindowRef } from './../WindowRef';
 })
 
 export class ZoomchartsComponent implements AfterViewInit {
-  // ref to zc instance
+  // for optimal operation: ref to zc instance
   private zc: any = zc;
 
   constructor(private winRef: WindowRef) {
@@ -102,14 +102,6 @@ export class ZoomchartsComponent implements AfterViewInit {
       ...
    }
  ],
-```
-
-### _app/zoomcharts/zoomcharts.component.html_ file
-
-```html
-<div class="chart-wrapper">
-      <div id="chartPieChart" class="chart"></div>
-</div>
 ```
 
 ### _src/app/app.component.html_ file
