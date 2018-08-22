@@ -171,3 +171,9 @@ import { WindowRef } from './../WindowRef';
 ```
 ng serve --open
 ```
+
+## ZoomCharts component library
+
+To save your time you can import already pre-built ZoomCharts components into your project from the link below. To do so you will need to import the component into your project and configure it accordingly. 
+
+https://github.com/zoomcharts/zoomcharts-angular-component-integration-example
